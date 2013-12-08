@@ -1,6 +1,6 @@
-# Middleman::Gumby
+# MiddlemanGumby
 
-TODO: Write a gem description
+A simple gem to use the Gumby framework in Middleman apps.
 
 ## Installation
 
@@ -10,7 +10,7 @@ Add this line to your application's Gemfile:
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
@@ -18,7 +18,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the following line to config.rb in your Middleman project:
+
+    activate :gumby
+    
+### To use the sass mixins
+
+Create or rename a .sass file, and add the following line to the top:
+
+    @import "gumby"
+    
+### To include Gumby's javascript framework
+
+Add the following line to your javascript file:
+
+    //= require gumby/production
 
 ## Contributing
 
