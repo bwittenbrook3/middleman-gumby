@@ -25,7 +25,7 @@ Add the following line to config.rb in your Middleman project:
     
 ### Sass mixins and css framework
 
-Create or rename a .sass file, and add the following line to the top:
+Add the following to your .scss/.sass file:
 
     @import "gumby"
     
