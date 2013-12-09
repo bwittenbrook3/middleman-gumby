@@ -3,6 +3,8 @@
 A simple gem to use the Gumby framework in Middleman apps.
 http://gumbyframework.com/
 
+[![Gem Version](https://badge.fury.io/rb/middleman-gumby.png)](http://badge.fury.io/rb/middleman-gumby)
+
 ## Installation
 
 Add this line to your application's Gemfile:
